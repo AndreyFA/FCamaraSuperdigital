@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\desen\Desktop\Projetos\Core\Core.SuperdigitalContaCorrenteModels\Core.SuperdigitalContaCorrenteModels.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Core.SuperdigitalContaCorrenteModels.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

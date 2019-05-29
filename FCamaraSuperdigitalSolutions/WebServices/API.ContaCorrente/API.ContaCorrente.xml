@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API.ContaCorrente</name>
+    </assembly>
+    <members>
+        <member name="T:API.ContaCorrente.Controllers.ContaCorrenteController">
+            <summary>
+            API responsável por fazer gestão das contas correntes.
+            </summary>
+        </member>
+        <member name="M:API.ContaCorrente.Controllers.ContaCorrenteController.CadastrarNovaContaCorrente(Core.SuperdigitalContaCorrenteApplications.ViewModels.ContaCorrenteViewModel)">
+            <summary>
+            Responsável pelo cadastro de uma nova conta corrente.
+            </summary>
+            <param name="contaCorrente">Representa uma conta corrente.</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.ContaCorrente.Controllers.ContaCorrenteController.ConsultarSaldoContaCorrente(Core.SuperdigitalContaCorrenteApplications.ViewModels.ConsultaSaldoCCViewModel)">
+            <summary>
+            Responsável por realizar a consulta do Saldo em conta corrente.
+            </summary>
+            <param name="consultaSaldo">Representa o dados para consulta do saldo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.ContaCorrente.Controllers.ContaCorrenteController.RealizarTransferencia(Core.SuperdigitalContaCorrenteApplications.ViewModels.TransferenciaContaCorrenteViewModel)">
+            <summary>
+            Responsável por realizar a transfêrencia entre duas contas correntes.
+            </summary>
+            <param name="transferenciaContaCorrenteView">Representa uma transferência entre duas contas correntes.</param>
+            <returns></returns>
+        </member>
+        <member name="M:API.ContaCorrente.Controllers.ContaCorrenteController.ConsultarLancamentos(Core.SuperdigitalContaCorrenteApplications.ViewModels.ConsultaLancamentoCCViewModel)">
+            <summary>
+            Responsável por consultar os lançamentos na conta corrente.
+            </summary>
+            <param name="consultaLancamentoCCViewModel">Entidade que representa a consulta dos lançamentos de uma conta corrente.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

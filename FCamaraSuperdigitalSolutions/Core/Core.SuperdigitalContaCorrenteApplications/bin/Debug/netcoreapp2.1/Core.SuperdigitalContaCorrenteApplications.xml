@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Core.SuperdigitalContaCorrenteApplications</name>
+    </assembly>
+    <members>
+        <member name="T:Core.SuperdigitalContaCorrenteApplications.ViewModels.ConsultaLancamentoCCViewModel">
+            <summary>
+            Entidade que representa a consulta dos lançamentos de uma conta.
+            </summary>
+        </member>
+        <member name="P:Core.SuperdigitalContaCorrenteApplications.ViewModels.ConsultaLancamentoCCViewModel.NumeroConta">
+            <summary>
+            Número da conta. Utilizar apenas números
+            </summary>
+        </member>
+        <member name="P:Core.SuperdigitalContaCorrenteApplications.ViewModels.ConsultaLancamentoCCViewModel.NumeroAgencia">
+            <summary>
+            Número da agência, representado apenas por números.
+            </summary>
+        </member>
+        <member name="T:Core.SuperdigitalContaCorrenteApplications.ViewModels.ConsultaSaldoCCViewModel">
+            <summary>
+            Entidade que representa a consulta do Saldo.
+            </summary>
+        </member>
+        <member name="P:Core.SuperdigitalContaCorrenteApplications.ViewModels.ConsultaSaldoCCViewModel.NumeroConta">
+            <summary>
+            Número da conta. Utilizar apenas números
+            </summary>
+        </member>
+        <member name="P:Core.SuperdigitalContaCorrenteApplications.ViewModels.ConsultaSaldoCCViewModel.NumeroAgencia">
+            <summary>
+            Número da agência, representado apenas por números.
+            </summary>
+        </member>
+        <member name="T:Core.SuperdigitalContaCorrenteApplications.ViewModels.ContaCorrenteViewModel">
+            <summary>
+            Representa uma conta corrente no sistema.
+            </summary>
+        </member>
+        <member name="P:Core.SuperdigitalContaCorrenteApplications.ViewModels.ContaCorrenteViewModel.NumeroConta">
+            <summary>
+            Número da conta. Utilizar apenas números
+            </summary>
+        </member>
+        <member name="P:Core.SuperdigitalContaCorrenteApplications.ViewModels.ContaCorrenteViewModel.NumeroAgencia">
+            <summary>
+            Número da agência, representado apenas por números.
+            </summary>
+        </member>
+        <member name="P:Core.SuperdigitalContaCorrenteApplications.ViewModels.ContaCorrenteViewModel.Valor">
+            <summary>
+            Saldo da conta corrente.
+            </summary>
+        </member>
+        <member name="T:Core.SuperdigitalContaCorrenteApplications.ViewModels.TransferenciaContaCorrenteViewModel">
+            <summary>
+            Representa uma transferência entre duas contas correntes.
+            </summary>
+        </member>
+        <member name="P:Core.SuperdigitalContaCorrenteApplications.ViewModels.TransferenciaContaCorrenteViewModel.ContaCorrenteOrigem">
+            <summary>
+            Conta corrente origem da transferência.
+            </summary>
+        </member>
+        <member name="P:Core.SuperdigitalContaCorrenteApplications.ViewModels.TransferenciaContaCorrenteViewModel.ContaCorrenteDestino">
+            <summary>
+            Conta corrente destino.
+            </summary>
+        </member>
+        <member name="P:Core.SuperdigitalContaCorrenteApplications.ViewModels.TransferenciaContaCorrenteViewModel.ValorTransferencia">
+            <summary>
+            Valor da transferência.
+            </summary>
+        </member>
+    </members>
+</doc>

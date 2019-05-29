@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\desen\Desktop\Projetos\Core\Core.SuperdigitalContaCorrenteApplications\Core.SuperdigitalContaCorrenteApplications.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.SuperdigitalContaCorrenteModels\Core.SuperdigitalContaCorrenteModels.csproj" />
+    <ProjectReference Include="..\Core.SuperdigitalContaCorrenteRepositories\Core.SuperdigitalContaCorrenteRepositories.csproj" />
+  </ItemGroup>
+
+</Project>

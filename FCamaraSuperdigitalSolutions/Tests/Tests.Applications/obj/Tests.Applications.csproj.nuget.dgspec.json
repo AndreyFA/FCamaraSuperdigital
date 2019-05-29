@@ -1,0 +1,250 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\desen\\Desktop\\Projetos\\Tests\\Tests.Applications\\Tests.Applications.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteApplications\\Core.SuperdigitalContaCorrenteApplications.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteApplications\\Core.SuperdigitalContaCorrenteApplications.csproj",
+        "projectName": "Core.SuperdigitalContaCorrenteApplications",
+        "projectPath": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteApplications\\Core.SuperdigitalContaCorrenteApplications.csproj",
+        "packagesPath": "C:\\Users\\desen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteApplications\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\desen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteModels\\Core.SuperdigitalContaCorrenteModels.csproj": {
+                "projectPath": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteModels\\Core.SuperdigitalContaCorrenteModels.csproj"
+              },
+              "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteRepositories\\Core.SuperdigitalContaCorrenteRepositories.csproj": {
+                "projectPath": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteRepositories\\Core.SuperdigitalContaCorrenteRepositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteModels\\Core.SuperdigitalContaCorrenteModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteModels\\Core.SuperdigitalContaCorrenteModels.csproj",
+        "projectName": "Core.SuperdigitalContaCorrenteModels",
+        "projectPath": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteModels\\Core.SuperdigitalContaCorrenteModels.csproj",
+        "packagesPath": "C:\\Users\\desen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\desen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteRepositories\\Core.SuperdigitalContaCorrenteRepositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteRepositories\\Core.SuperdigitalContaCorrenteRepositories.csproj",
+        "projectName": "Core.SuperdigitalContaCorrenteRepositories",
+        "projectPath": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteRepositories\\Core.SuperdigitalContaCorrenteRepositories.csproj",
+        "packagesPath": "C:\\Users\\desen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteRepositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\desen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteModels\\Core.SuperdigitalContaCorrenteModels.csproj": {
+                "projectPath": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteModels\\Core.SuperdigitalContaCorrenteModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.1.11, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\desen\\Desktop\\Projetos\\Tests\\Tests.Applications\\Tests.Applications.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\desen\\Desktop\\Projetos\\Tests\\Tests.Applications\\Tests.Applications.csproj",
+        "projectName": "Tests.Applications",
+        "projectPath": "C:\\Users\\desen\\Desktop\\Projetos\\Tests\\Tests.Applications\\Tests.Applications.csproj",
+        "packagesPath": "C:\\Users\\desen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\desen\\Desktop\\Projetos\\Tests\\Tests.Applications\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\desen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteApplications\\Core.SuperdigitalContaCorrenteApplications.csproj": {
+                "projectPath": "C:\\Users\\desen\\Desktop\\Projetos\\Core\\Core.SuperdigitalContaCorrenteApplications\\Core.SuperdigitalContaCorrenteApplications.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

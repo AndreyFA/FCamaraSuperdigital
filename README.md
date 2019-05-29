@@ -1,5 +1,6 @@
 # FCamaraSuperdigital
 
+- Desenvolvimento de uma API REST com ASP.NET Core 2.1
 - Utilização de injeção de dependências.
 - EntityFramework Core (InMemoryDatabase).
 - Conceito de repositórios.
